@@ -240,7 +240,7 @@ a{
 .logo{
     filter: drop-shadow(0px 7px 21px #01e701);
     animation: rotar 5s linear infinite;
-    margin-left: 2.5rem;
+    margin-left: 1.5rem;
 }
 
 .logo:hover{
