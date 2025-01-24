@@ -72,6 +72,16 @@ const productos = [
         precio: 0.50
     },
     {
+        id: "chocolate-jet-01",
+        titulo: "Chocolate Jet",
+        imagen: "IMG/LOGO.jpg",
+        categoria: {
+            nombre:"Dulces",
+            id:"dulces"
+        },
+        precio: 0.50
+    },
+    {
         id: "tatos-01",
         titulo: "Tatos",
         imagen: "IMG/LOGO.jpg",
@@ -85,10 +95,13 @@ const productos = [
 
 const contenedorProductos = document.querySelector("#contenedor-productos");
 const botonesCategorias = document.querySelectorAll(".boton-categoria");
+const tituloPrincipal = document.querySelector(".titulo-principal");
 
-function cargarProductos() {
+function cargarProductos(productosElegidos) {
     
-    productos.forEach(producto => {
+    contenedorProductos.innerHTML= "";
+    
+    productosElegidos.forEach(producto => {
 
         const div = document.createElement("div");
         div.classList.add("producto");
@@ -105,13 +118,26 @@ function cargarProductos() {
     })
 }
 
-cargarProductos();
+cargarProductos(productos);
 
 botonesCategorias.forEach(boton =>{
     boton.addEventListener('click', (e) => {
         
         botonesCategorias.forEach(boton => boton.classList.remove("active"));
-
         e.currentTarget.classList.add("active");
+        
+        if(e.currentTarget.id != "todos"){
+            const productoCategoria = productos.find(producto => producto.categoria.id === e.currentTarget.id);
+            console.log(productoCategoria);
+            tituloPrincipal.innerText = productoCategoria.categoria.nombre;
+            
+            const productosBoton = productos.filter(producto => producto.categoria.id === e.currentTarget.id);
+            cargarProductos(productosBoton);
+        } else {
+            tituloPrincipal.innerText = "Todos los productos";
+            cargarProductos(productos);
+        }
     })
 })
+
+
