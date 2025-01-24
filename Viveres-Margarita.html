@@ -4,31 +4,30 @@
     <title>Viveres Margarita</title>
     <link rel="stylesheet" href="Vives-Margarita.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <script src="Viveres-Magarita.js"></script>
 </head>
 <body>
     
 <div class="wrapper">
     <aside>
         <header>
-            <h1 class="logo">Viveres Margarita</h1>
+            <h1 class="logoo">Viveres Margarita</h1>
         </header>
         <nav>
             <ul class="menu">
                 <li>
-                    <button class="boton-menu boton-categoria active"> <i class="bi bi-hand-index-thumb-fill"></i> Todos los productos</button>
+                    <button id="todos" class="boton-menu boton-categoria active"> <i class="bi bi-hand-index-thumb-fill"></i> Todos los productos</button>
                 </li>
                 <li>
-                    <button class="boton-menu boton-categoria"> <i class="bi bi-hand-index-thumb"></i> Snacks </button>
+                    <button id="snacks" class="boton-menu boton-categoria"> <i class="bi bi-hand-index-thumb"></i> Snacks </button>
                 </li>
                 <li>
-                    <button class="boton-menu boton-categoria"> <i class="bi bi-hand-index-thumb"></i> Bebidas </button>
+                    <button  id="bebidas" class="boton-menu boton-categoria"> <i class="bi bi-hand-index-thumb"></i> Bebidas </button>
                 </li>
                 <li>
-                    <button class="boton-menu boton-categoria"> <i class="bi bi-hand-index-thumb"></i> Dulces </button>
+                    <button id="dulces" class="boton-menu boton-categoria"> <i class="bi bi-hand-index-thumb"></i> Dulces </button>
                 </li>
                 <li>
-                    <button class="boton-menu boton-categoria"> <i class="bi bi-hand-index-thumb"></i> Pasta y Arroz</button>
+                    <button id="cocina-hogar" class="boton-menu boton-categoria"> <i class="bi bi-hand-index-thumb"></i> Cocina & Hogar</button>
                 </li>
                 <li>
                     <a class="boton-menu boton-carrito" href="Carrito-Viveres-Margarita.html">
@@ -44,81 +43,18 @@
             <p class="texto-footer">Hecho por la empresa</p>
             <br>
             <a href="#logo" class="texto-footer">
-                <img class="logo" src="IMG/LOGO.jpg" height="60px">
+                <img class="logo" src="IMG/LOGO.jpg" height="65px">
             </a>
         </footer>
     </aside>
 
     <main>
         <h2 class="titulo-principal">Todos los productos</h2>
-        <div class="contenedor-productos">
-            <div class="producto">
-                <img class="producto-imagen" src="IMG/LOGO.jpg" alt="">
-                <div class="producto-detalles">
-                    <h3 class="producto-titulo">Doritos</h3>
-                    <p class="producto-precio">$ 0.50</p>
-                    <button class="producto-agregar">Agregar Carrito</button>
-                </div>
-            </div>
-            <div class="producto">
-                <img class="producto-imagen" src="IMG/LOGO.jpg" alt="">
-                <div class="producto-detalles">
-                    <h3 class="producto-titulo">Pa' fritas</h3>
-                    <p class="producto-precio">$ 0.50</p>
-                    <button class="producto-agregar">Agregar Carrito</button>
-                </div>
-            </div>
-            <div class="producto">
-                <img class="producto-imagen" src="IMG/LOGO.jpg" alt="">
-                <div class="producto-detalles">
-                    <h3 class="producto-titulo">Coca Cola</h3>
-                    <p class="producto-precio">$ 0.50</p>
-                    <button class="producto-agregar">Agregar Carrito</button>
-                </div>
-            </div>
-            <div class="producto">
-                <img class="producto-imagen" src="IMG/LOGO.jpg" alt="">
-                <div class="producto-detalles">
-                    <h3 class="producto-titulo">Ruffles</h3>
-                    <p class="producto-precio">$ 0.50</p>
-                    <button class="producto-agregar">Agregar Carrito</button>
-                </div>
-            </div>
-            <div class="producto">
-                <img class="producto-imagen" src="IMG/LOGO.jpg" alt="">
-                <div class="producto-detalles">
-                    <h3 class="producto-titulo">Doritos</h3>
-                    <p class="producto-precio">$ 0.50</p>
-                    <button class="producto-agregar">Agregar Carrito</button>
-                </div>
-            </div>
-            <div class="producto">
-                <img class="producto-imagen" src="IMG/LOGO.jpg" alt="">
-                <div class="producto-detalles">
-                    <h3 class="producto-titulo">Pa' fritas</h3>
-                    <p class="producto-precio">$ 0.50</p>
-                    <button class="producto-agregar">Agregar Carrito</button>
-                </div>
-            </div>
-            <div class="producto">
-                <img class="producto-imagen" src="IMG/LOGO.jpg" alt="">
-                <div class="producto-detalles">
-                    <h3 class="producto-titulo">Coca Cola</h3>
-                    <p class="producto-precio">$ 0.50</p>
-                    <button class="producto-agregar">Agregar Carrito</button>
-                </div>
-            </div>
-            <div class="producto">
-                <img class="producto-imagen" src="IMG/LOGO.jpg" alt="">
-                <div class="producto-detalles">
-                    <h3 class="producto-titulo">Ruffles</h3>
-                    <p class="producto-precio">$ 0.50</p>
-                    <button class="producto-agregar">Agregar Carrito</button>
-                </div>
-            </div>
+        <div id="contenedor-productos" class="contenedor-productos">
+            <!--Esto se va a rellenar con JS-->
         </div>
     </main>
 </div>
-
+<script src="Main-Viveres-Margarita.js"></script>
 </body>
 </html>
