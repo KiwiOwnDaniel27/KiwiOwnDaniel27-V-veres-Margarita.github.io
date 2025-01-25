@@ -168,7 +168,6 @@ function agregarAlCarrito(e){
         productosEnCarrito.push(productoAgregado);
     }    
     actualizarNumerito();
-    console.log(productosEnCarrito);
 }
 
 function actualizarNumerito(){
