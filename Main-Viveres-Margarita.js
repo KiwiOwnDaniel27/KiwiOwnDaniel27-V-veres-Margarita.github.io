@@ -6,8 +6,8 @@ const productos = [
         titulo: "Doritos",
         imagen: "IMG/Doritos.jpg",
         categoria: {
-            nombre: "Snacks",
-            id: "snacks"
+            nombre: "Snacks Dulces",
+            id: "snacks-dulces"
         },
         precio: 0.50
     },
@@ -16,8 +16,8 @@ const productos = [
         titulo: "K-chitos",
         imagen: "IMG/K-chitos.jpg",
         categoria: {
-            nombre: "Snacks",
-            id: "snacks"
+            nombre: "Snacks Dulces",
+            id: "snacks-dulces"
         },
         precio: 0.50
     },
@@ -26,8 +26,8 @@ const productos = [
         titulo: "Tatos Queso",
         imagen: "IMG/tatos-queso.jpg",
         categoria: {
-            nombre: "Snacks",
-            id: "snacks"
+            nombre: "Snacks Dulces",
+            id: "snacks-dulces"
         },
         precio: 0.50
     },
@@ -226,8 +226,8 @@ const productos = [
         titulo: "Caramelos",
         imagen: "IMG/Caramelos.jpg",
         categoria: {
-            nombre:"Dulces",
-            id:"dulces"
+            nombre:"Snacks Dulces",
+            id:"snacks-dulces"
         },
         precio: 0.05
     },
@@ -236,8 +236,8 @@ const productos = [
         titulo: "Bon bon",
         imagen: "IMG/Bon bon.webp",
         categoria: {
-            nombre:"Dulces",
-            id:"dulces"
+            nombre:"Snacks Dulces",
+            id:"snacks-dulces"
         },
         precio: 0.10
     }
@@ -324,4 +324,3 @@ function actualizarNumerito(){
     let nuevoNumerito = productosEnCarrito.reduce((acc, producto) => acc + producto.cantidad, 0);
     numerito.innerText = nuevoNumerito;
 }
-
