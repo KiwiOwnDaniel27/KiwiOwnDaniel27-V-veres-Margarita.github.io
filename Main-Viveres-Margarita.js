@@ -4,7 +4,7 @@ const productos = [
     {
         id: "dorito-01",
         titulo: "Doritos",
-        imagen: "IMG/LOGO.jpg",
+        imagen: "IMG/Doritos.jpg",
         categoria: {
             nombre: "Snacks",
             id: "snacks"
@@ -12,9 +12,9 @@ const productos = [
         precio: 0.50
     },
     {
-        id: "pa-fritas-01",
-        titulo: "Pa' fritas",
-        imagen: "./IMG/LOGO.jpg",
+        id: "K-chitos-01",
+        titulo: "K-chitos",
+        imagen: "IMG/K-chitos.jpg",
         categoria: {
             nombre: "Snacks",
             id: "snacks"
@@ -22,74 +22,224 @@ const productos = [
         precio: 0.50
     },
     {
-        id: "coca-cola-01",
-        titulo: "Coca Cola",
-        imagen: "IMG/LOGO.jpg",
-        categoria : {
+        id: "Tatos-02",
+        titulo: "Tatos Queso",
+        imagen: "IMG/tatos-queso.jpg",
+        categoria: {
+            nombre: "Snacks",
+            id: "snacks"
+        },
+        precio: 0.50
+    },
+    {
+        id: "frutaris-01",
+        titulo: "Frutaris",
+        imagen: "IMG/frutaris.jpg",
+        categoria: {
             nombre: "Bebidas",
             id: "bebidas"
         },
-        precio: 0.50
+        precio: 0.30
     },
     {
-        id: "ruffles-01",
-        titulo: "Ruffles",
-        imagen: "IMG/LOGO.jpg",
+        id: "Squiz-01",
+        titulo: "Squiz",
+        imagen: "IMG/Squiz.webp",
         categoria: {
-            nombre: "Snacks",
-            id: "snacks"
+            nombre: "Bebidas",
+            id: "bebidas"
         },
-        precio: 0.50
+        precio: 0.30
+    },
+    {
+        id: "Gaseosas-01",
+        titulo: "Gaseosas",
+        imagen: "IMG/Gaseosa.jpg",
+        categoria: {
+            nombre: "Bebidas",
+            id: "bebidas"
+        },
+        precio: 0.30
+    },
+    {
+        id: "jugos-ya-01",
+        titulo: "Jugos Ya",
+        imagen: "IMG/JUGOYA.jpg",
+        categoria: {
+            nombre: "Bebidas",
+            id: "bebidas"
+        },
+        precio: 0.30
     },
     {
         id: "aceite-01",
         titulo: "Aceite",
-        imagen: "IMG/LOGO.jpg",
+        imagen: "IMG/Aceite.png",
         categoria: {
             nombre:"Cocina & Hogar",
             id:"cocina-hogar"
         },
-        precio: 0.50
+        precio: 2.70
+    },
+    {
+        id: "atun-01",
+        titulo: "Atun",
+        imagen: "IMG/Atun.webp",
+        categoria: {
+            nombre:"Cocina & Hogar",
+            id:"cocina-hogar"
+        },
+        precio: 2.50
+    },
+    {
+        id: "sardina-01",
+        titulo: "Sardina",
+        imagen: "IMG/Sardina.jpg",
+        categoria: {
+            nombre:"Cocina & Hogar",
+            id:"cocina-hogar"
+        },
+        precio: 2.50
+    },
+    {
+        id: "papel-higienico-01",
+        titulo: "Papel higiénico",
+        imagen: "IMG/Papel higienico.avif",
+        categoria: {
+            nombre:"Cocina & Hogar",
+            id:"cocina-hogar"
+        },
+        precio: 1
+    },
+    {
+        id: "Deja-01",
+        titulo: "Deja",
+        imagen: "IMG/Deja.jpg",
+        categoria: {
+            nombre:"Cocina & Hogar",
+            id:"cocina-hogar"
+        },
+        precio: 1
+    },
+    {
+        id: "sal-01",
+        titulo: "Sal",
+        imagen: "IMG/Sal.jpg",
+        categoria: {
+            nombre:"Cocina & Hogar",
+            id:"cocina-hogar"
+        },
+        precio: 0.85
     },
     {
         id: "azucar-01",
-        titulo: "Azucar",
-        imagen: "IMG/LOGO.jpg",
+        titulo: "Azúcar",
+        imagen: "IMG/Azucar.jpg",
         categoria: {
             nombre:"Cocina & Hogar",
             id:"cocina-hogar"
         },
-        precio: 0.50
+        precio: 0.85
     },
     {
-        id: "deja-01",
-        titulo: "Deja",
-        imagen: "IMG/LOGO.jpg",
+        id: "aromatel-01",
+        titulo: "Aromatel",
+        imagen: "IMG/Aromatel.jpg",
         categoria: {
             nombre:"Cocina & Hogar",
             id:"cocina-hogar"
         },
-        precio: 0.50
+        precio: 1
     },
     {
-        id: "chocolate-jet-01",
-        titulo: "Chocolate Jet",
-        imagen: "IMG/LOGO.jpg",
+        id: "jabon-01",
+        titulo: "Jabón",
+        imagen: "IMG/Jabon.webp",
+        categoria: {
+            nombre:"Cocina & Hogar",
+            id:"cocina-hogar"
+        },
+        precio: 1
+    },
+    {
+        id: "Shampoo-01",
+        titulo: "Shampoo",
+        imagen: "IMG/Shampoo.webp",
+        categoria: {
+            nombre:"Cocina & Hogar",
+            id:"cocina-hogar"
+        },
+        precio: 1
+    },
+    {
+        id: "bicarbonato-01",
+        titulo: "Bicarbonato",
+        imagen: "IMG/bicarbonatosodio.jpg",
+        categoria: {
+            nombre:"Cocina & Hogar",
+            id:"cocina-hogar"
+        },
+        precio: 1
+    },
+    {
+        id: "anis-01",
+        titulo: "Anis",
+        imagen: "IMG/Anis.webp",
+        categoria: {
+            nombre:"Cocina & Hogar",
+            id:"cocina-hogar"
+        },
+        precio: 0.1
+    },
+    {
+        id: "oregano-01",
+        titulo: "Oregano",
+        imagen: "IMG/Oregano.jpg",
+        categoria: {
+            nombre:"Cocina & Hogar",
+            id:"cocina-hogar"
+        },
+        precio: 0.1
+    },
+    {
+        id: "achiote-01",
+        titulo: "Achiote",
+        imagen: "IMG/Achiote.jpeg",
+        categoria: {
+            nombre:"Cocina & Hogar",
+            id:"cocina-hogar"
+        },
+        precio: 0.1
+    },
+    {
+        id: "canela-01",
+        titulo: "Canela",
+        imagen: "IMG/Canela.jpg",
+        categoria: {
+            nombre:"Cocina & Hogar",
+            id:"cocina-hogar"
+        },
+        precio: 0.1
+    },
+    {
+        id: "caramelos-01",
+        titulo: "Caramelos",
+        imagen: "IMG/Caramelos.jpg",
         categoria: {
             nombre:"Dulces",
             id:"dulces"
         },
-        precio: 0.50
+        precio: 0.05
     },
     {
-        id: "tatos-01",
-        titulo: "Tatos",
-        imagen: "IMG/LOGO.jpg",
+        id: "bon-bon-01",
+        titulo: "Bon bon",
+        imagen: "IMG/Bon bon.webp",
         categoria: {
-            nombre: "Snacks",
-            id: "snacks"
+            nombre:"Dulces",
+            id:"dulces"
         },
-        precio: 0.50
+        precio: 0.10
     }
 ];
 
@@ -174,5 +324,4 @@ function actualizarNumerito(){
     let nuevoNumerito = productosEnCarrito.reduce((acc, producto) => acc + producto.cantidad, 0);
     numerito.innerText = nuevoNumerito;
 }
-
 
